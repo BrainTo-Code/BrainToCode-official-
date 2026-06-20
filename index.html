@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BrainToCode - Python Developer & Web Developer</title>
+    <title>BrainToCode - Python Developer & AI Expert</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation Bar -->
+    <!-- Navigation -->
     <nav class="navbar">
-        <div class="navbar-container">
+        <div class="nav-container">
             <div class="logo">
                 <i class="fas fa-brain"></i>
                 <span>BrainToCode</span>
@@ -19,7 +19,8 @@
                 <li><a href="#home" class="nav-link">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#subscribe" class="nav-link">Subscribe</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
             <div class="hamburger">
                 <span></span>
@@ -31,23 +32,27 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="stars"></div>
         <div class="hero-content">
-            <h1 class="hero-title">
-                <span class="word">Welcome</span>
-                <span class="word">to</span>
-                <span class="word">BrainToCode</span>
-            </h1>
-            <p class="hero-subtitle">Transforming Ideas into Code</p>
-            <div class="hero-buttons">
-                <a href="#projects" class="btn btn-primary">Explore Projects</a>
-                <a href="#subscribe" class="btn btn-secondary">Subscribe Now</a>
+            <div class="hero-text">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">BrainToCode</span></h1>
+                <p class="hero-subtitle">Python Developer | Web Developer | AI Enthusiast</p>
+                <p class="hero-description">Sharing my coding journey and projects on YouTube. Mastering Python, Web Development, and AI Prompting.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Explore My Projects</a>
+                    <a href="https://youtube.com" target="_blank" class="btn btn-secondary">Subscribe on YouTube</a>
+                </div>
+            </div>
+            <div class="hero-animation">
+                <div class="code-block">
+                    <div class="code-line"><span class="code-keyword">def</span> <span class="code-function">brain_to_code</span>():</div>
+                    <div class="code-line">    <span class="code-keyword">return</span> <span class="code-string">"Success"</span></div>
+                </div>
             </div>
         </div>
-        <div class="hero-animation">
-            <div class="floating-circle circle-1"></div>
-            <div class="floating-circle circle-2"></div>
-            <div class="floating-circle circle-3"></div>
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
         </div>
     </section>
 
@@ -57,38 +62,37 @@
             <h2 class="section-title">About Me</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p class="about-intro">Hello, I'm <span class="highlight">BrainToCode</span></p>
-                    <p class="about-description">
-                        I'm passionate about showcasing my skills on YouTube. With a strong foundation in <span class="highlight">Python</span>, 
-                        I'm actively practicing and mastering <span class="highlight">web development</span>. 
-                        My expertise extends to crafting effective prompts and leveraging AI tools to enhance productivity and creativity.
-                    </p>
-                    <div class="skills">
-                        <div class="skill-item">
+                    <div class="about-box">
+                        <h3>Hello! 👋</h3>
+                        <p>I'm <strong>BrainToCode</strong>, a passionate developer who loves sharing knowledge through YouTube. I focus on creating high-quality content about:</p>
+                        <ul class="about-list">
+                            <li><i class="fas fa-check"></i> Python Programming</li>
+                            <li><i class="fas fa-check"></i> Web Development (HTML, CSS, JavaScript)</li>
+                            <li><i class="fas fa-check"></i> AI & Machine Learning</li>
+                            <li><i class="fas fa-check"></i> Prompt Engineering & AI Tools</li>
+                            <li><i class="fas fa-check"></i> Best Coding Practices</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="avatar-circle">
+                        <div class="avatar-content">
                             <i class="fas fa-code"></i>
-                            <span>Python</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-globe"></i>
-                            <span>Web Development</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-brain"></i>
-                            <span>AI & Prompting</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-video"></i>
-                            <span>Content Creation</span>
                         </div>
                     </div>
-                    <p class="call-to-action">
-                        Join me on my journey! Visit my YouTube channel <span class="highlight">BrainToCode</span> 
-                        for interesting updates and in-depth tutorials.
-                    </p>
-                </div>
-                <div class="about-image">
-                    <div class="avatar">
-                        <i class="fas fa-user-circle"></i>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h3>500+</h3>
+                            <p>Videos</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>100K+</h3>
+                            <p>Subscribers</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>5M+</h3>
+                            <p>Views</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -98,109 +102,142 @@
     <!-- Projects Section -->
     <section id="projects" class="projects">
         <div class="container">
-            <h2 class="section-title">Project Videos</h2>
+            <h2 class="section-title">My Project Videos</h2>
             <div class="projects-grid">
                 <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-python"></i>
+                    <div class="project-icon">
+                        <i class="fab fa-python"></i>
                     </div>
-                    <div class="project-content">
-                        <h3>Python Basics</h3>
-                        <p>Learn the fundamentals of Python programming from scratch.</p>
-                        <a href="#" class="project-link">Watch on YouTube</a>
-                    </div>
+                    <h3>Python Fundamentals</h3>
+                    <p>Master the basics of Python programming with practical examples and best practices.</p>
+                    <a href="#" class="project-link">Watch Series</a>
                 </div>
 
                 <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-js"></i>
+                    <div class="project-icon">
+                        <i class="fas fa-globe"></i>
                     </div>
-                    <div class="project-content">
-                        <h3>JavaScript Mastery</h3>
-                        <p>Master JavaScript and create interactive web applications.</p>
-                        <a href="#" class="project-link">Watch on YouTube</a>
-                    </div>
+                    <h3>Web Development</h3>
+                    <p>Build responsive and beautiful websites using HTML, CSS, and JavaScript from scratch.</p>
+                    <a href="#" class="project-link">Watch Series</a>
                 </div>
 
                 <div class="project-card">
-                    <div class="project-image">
+                    <div class="project-icon">
                         <i class="fas fa-robot"></i>
                     </div>
-                    <div class="project-content">
-                        <h3>AI & Automation</h3>
-                        <p>Explore AI integration and automation techniques in your projects.</p>
-                        <a href="#" class="project-link">Watch on YouTube</a>
-                    </div>
+                    <h3>AI & Machine Learning</h3>
+                    <p>Explore artificial intelligence, machine learning algorithms, and AI applications.</p>
+                    <a href="#" class="project-link">Watch Series</a>
                 </div>
 
                 <div class="project-card">
-                    <div class="project-image">
+                    <div class="project-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Prompt Engineering</h3>
+                    <p>Learn how to write effective prompts and master AI tools for better results.</p>
+                    <a href="#" class="project-link">Watch Series</a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
                         <i class="fas fa-database"></i>
                     </div>
-                    <div class="project-content">
-                        <h3>Data Science Essentials</h3>
-                        <p>Build data-driven applications with Python and data science libraries.</p>
-                        <a href="#" class="project-link">Watch on YouTube</a>
-                    </div>
+                    <h3>Data Science</h3>
+                    <p>Analyze data, create visualizations, and build data-driven applications with Python.</p>
+                    <a href="#" class="project-link">Watch Series</a>
                 </div>
 
                 <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-palette"></i>
+                    <div class="project-icon">
+                        <i class="fas fa-code"></i>
                     </div>
-                    <div class="project-content">
-                        <h3>Web Design & CSS</h3>
-                        <p>Create stunning user interfaces with modern CSS techniques.</p>
-                        <a href="#" class="project-link">Watch on YouTube</a>
+                    <h3>Advanced Concepts</h3>
+                    <p>Deep dive into advanced programming concepts, design patterns, and architecture.</p>
+                    <a href="#" class="project-link">Watch Series</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fab fa-python"></i> Python</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Core Python</span>
+                        <span class="skill-tag">Django/Flask</span>
+                        <span class="skill-tag">Data Science</span>
+                        <span class="skill-tag">Automation</span>
                     </div>
                 </div>
 
-                <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-lightning-bolt"></i>
+                <div class="skill-category">
+                    <h3><i class="fas fa-globe"></i> Web Development</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Responsive Design</span>
                     </div>
-                    <div class="project-content">
-                        <h3>Advanced Concepts</h3>
-                        <p>Deep dive into advanced programming concepts and best practices.</p>
-                        <a href="#" class="project-link">Watch on YouTube</a>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> AI & Tools</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">ChatGPT Prompting</span>
+                        <span class="skill-tag">Prompt Engineering</span>
+                        <span class="skill-tag">AI Integration</span>
+                        <span class="skill-tag">API Usage</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Git/GitHub</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Linux</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Subscribe Section -->
-    <section id="subscribe" class="subscribe">
+    <!-- CTA Section -->
+    <section id="contact" class="cta">
         <div class="container">
-            <div class="subscribe-content">
-                <h2 class="section-title">Subscribe to BrainToCode</h2>
-                <p class="subscribe-subtitle">Get notified about new videos and interesting updates</p>
-                <div class="subscribe-form">
-                    <input type="email" placeholder="Enter your email" class="email-input">
-                    <button class="btn btn-primary">Subscribe</button>
-                </div>
-                <div class="social-links">
-                    <a href="https://www.youtube.com/c/BrainToCode" target="_blank" class="social-icon">
-                        <i class="fab fa-youtube"></i>
-                    </a>
-                    <a href="#" class="social-icon">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="#" class="social-icon">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="#" class="social-icon">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                </div>
-                <p class="subscribe-note">Subscribe to my YouTube channel for intresting updates!</p>
+            <h2>Subscribe to BrainToCode</h2>
+            <p>Don't miss out on interesting updates, tutorials, and coding tips!</p>
+            <div class="subscribe-form">
+                <input type="email" placeholder="Enter your email" class="email-input">
+                <button class="btn btn-primary">Subscribe Now</button>
+            </div>
+            <div class="social-links">
+                <a href="https://youtube.com" target="_blank" class="social-icon" title="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="#" class="social-icon" title="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-icon" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="social-icon" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2024 BrainToCode. All rights reserved.</p>
+        <p>&copy; 2024 BrainToCode. All rights reserved. | Made with <i class="fas fa-heart"></i> by BrainToCode</p>
     </footer>
 
     <script src="script.js"></script>
